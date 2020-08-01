@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../assets/fonts/Roboto-Regular.ttf') format("ttf");
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.header {
+    background-color: #000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-btn {
+    background-color: #56C1DD;
+    border: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.form-btn:hover {
+    background-color: #84d4e9;
+    cursor: pointer;
+}
+
+.form-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: ;
+    padding: 3px;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .form-input {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    .form-btn {
+        margin-bottom: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+}
