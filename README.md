@@ -4,7 +4,6 @@ World Clock app built with React.
 
 https://agovah.github.io/react-world-clock-demo/
 
-
 ## Usage
 
 ```
