@@ -8,6 +8,7 @@ $ git clone https://github.com/agovah/React-World-Clock.git
 $ cd React-World-Clock-master
 $ npm install
 $ npm start
+```
 
 ## Available Scripts
 
