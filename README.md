@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+World Clock app built with React
+
+
+## Usage
+
+```
+$ git clone https://github.com/agovah/React-World-Clock.git
+$ cd React-World-Clock-master
+$ npm install
+$ npm start
 
 ## Available Scripts
 
